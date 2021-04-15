@@ -1,13 +1,3 @@
-
-#Checking for packages
-list.of.packages <- c("ggplot2", "broom", "dplyr")
-new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
-
-library(broom)
-library(dplyr)
-library(ggplot2)
-
 # Data
 # Income in 1978 (one or two years after the job training) is our outcome variable here, and the
 # treatment is whether the individual received job training. The data contain a number of demographic

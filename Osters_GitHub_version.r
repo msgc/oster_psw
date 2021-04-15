@@ -1,7 +1,3 @@
-# The dataset for this group contains treated cases and control cases: the treated cases are those who actually received job training under the NSW experiment, and the control cases include a large number of people from the PSID, a nationally representative survey of income and employment. Since the PSID is a representative sample of the whole population while the NSW experiment was a program targeted at poor workers, you should expect that the treatment group will look very different from the control group. Remember that this is exactly the problem that matching estimators are designed to correct.
-
-
-a<-read.csv(sprintf("https://docs.google.com/uc?id=%s&export=download", "10X6BkKJaEvD8ntEMHfyqFqk4goW7PNII"))
 
 #Checking for packages
 list.of.packages <- c("ggplot2", "broom", "dplyr")

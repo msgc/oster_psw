@@ -1,28 +1,3 @@
-# Data
-# Income in 1978 (one or two years after the job training) is our outcome variable here, and the
-# treatment is whether the individual received job training. The data contain a number of demographic
-# and work-related variables designed to control for other factors that might affect income. The
-# variables included are:
-# Variable Description
-# treatment 1 if in NSW Job Training Program; 0 if PSID control case
-# age Age
-# educ Education (# of years)
-# black 1 if black
-# hisp 1 if Hispanic
-# married 1 if married
-# nodegree 1 if no high school degree
-# re74 1974 earnings Baseline, before training
-# re75 1975 earnings assume during training
-# re78 1978 earnings (outcome)
-# age_sq Age squared
-# educ_sq Education squared
-# re74_sq 1974 earnings squared
-# re75_sq 1975 earnings squared
-# u74 Unemployed in 1974
-# u74_black Black and Unemployed in 1974
-# u75 Unemployed in 1975
-# u74_hisp Hispanic and Unemployed in 1974
-# w PSW obtained with TWANG
 
 o_delta_psw <- function (y, x, con, w, m = "none", id = "none", time = "none", 
     beta = 0, R2max, type, data) 
